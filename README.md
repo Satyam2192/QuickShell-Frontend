@@ -4,6 +4,8 @@
 
 QuickShell is a dynamic ticket management application that provides flexible visualization of tickets across different grouping and ordering options. The application allows users to organize and view tickets by status, priority, or user, with customizable sorting methods.
 
+#### LIVE URL -> https://quick-shell-frontend-8a3l.vercel.app/
+
 ## ✨ Features
 
 - **Dynamic Ticket Grouping**: Organize tickets by:
