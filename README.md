@@ -1,50 +1,91 @@
-# React + TypeScript + Vite
+# QuickShell Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Project Overview
 
-Currently, two official plugins are available:
+QuickShell is a dynamic ticket management application that provides flexible visualization of tickets across different grouping and ordering options. The application allows users to organize and view tickets by status, priority, or user, with customizable sorting methods.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Dynamic Ticket Grouping**: Organize tickets by:
+  - Status
+  - Priority
+  - User
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Flexible Sorting**: 
+  - Sort by Priority
+  - Sort by Title
 
-- Configure the top-level `parserOptions` property like this:
+- **Persistent Settings**: 
+  - User preferences are saved in local storage
+  - Grouping and ordering settings persist across sessions
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Responsive Design**: 
+  - Fully responsive layout
+  - Adapts to various screen sizes and devices
+
+## 🚀 Technologies Used
+
+- React
+- TypeScript
+- React Hooks
+- Local Storage API
+- Fetch API for data retrieval
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Satyam2192/QuickShell-Frontend.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Navigate to project directory:
+```bash
+cd quickshell-frontend
 ```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+## 🏃 Running the Application
+
+### Development Mode
+```bash
+npm run dev
+```
+
+### Production Build
+```bash
+npm run build
+```
+
+## 🌐 API Endpoint
+
+The application fetches ticket data from:
+`https://api.quicksell.co/v1/internal/frontend-assignment`
+
+## 💡 Key Components
+
+1. **App Component**: 
+   - Manages application state
+   - Handles data fetching
+   - Manages grouping and ordering
+
+2. **Grid Component**: 
+   - Renders tickets based on selected grouping
+   - Supports dynamic layout
+
+3. **Header Component**: 
+   - Provides UI for changing grouping and ordering
+
+
+## 🎉 Acknowledgements
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- QuickSell API
+
+---
+
+**Created with ❤️ by Satyam Kumar**
