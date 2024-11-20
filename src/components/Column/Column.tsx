@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import Card from '../Card';
 import "./column.css"
 import { GrAdd } from 'react-icons/gr';

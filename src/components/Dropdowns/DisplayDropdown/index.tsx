@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState, ChangeEvent } from 'react';
+import { useCallback, useEffect, useRef, useState, ChangeEvent } from 'react';
 import './displayDropdown.css'
 import { GiSettingsKnobs } from "react-icons/gi";
 import { BiChevronDown } from "react-icons/bi";
