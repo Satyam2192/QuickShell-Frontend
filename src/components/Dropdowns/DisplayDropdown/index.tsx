@@ -32,7 +32,7 @@ function DisplayDropdown({ grouping, setGrouping, ordering, setOrdering }: { gro
   return (
     <div className='display-dropdown' ref={componentRef}>
       <div className='dropdown-label-container' onClick={openDropdown}>
-        <GiSettingsKnobs color='#6b6f76' />
+        <GiSettingsKnobs className='Icon' color='#6b6f76' />
         <div className='dropdown-label'>Display</div>
         <BiChevronDown color='#6b6f76' />
       </div>

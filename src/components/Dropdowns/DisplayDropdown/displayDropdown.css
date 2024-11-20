@@ -63,3 +63,7 @@
     padding: 0.25rem 0.5rem;
     cursor: pointer;
 }
+
+.Icon{
+    transform: rotate(90deg);
+}

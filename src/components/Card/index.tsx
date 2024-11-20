@@ -18,7 +18,7 @@ function Card({ ticket, userData, hideStatusIcon, hideProfileIcon }: { ticket: T
       </div>
       <div className='bottom-container'>
         <div className='more-icon-container'>
-          <LuMoreHorizontal color="#797d84" />
+        <LuMoreHorizontal color="#797d84" />
         </div>
         {ticket.tag.map((t: string) => (
           <div key={t} className='tag-container'>
