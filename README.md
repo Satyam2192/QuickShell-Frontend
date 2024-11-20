@@ -22,6 +22,9 @@ QuickShell is a dynamic ticket management application that provides flexible vis
 - **Responsive Design**: 
   - Fully responsive layout
   - Adapts to various screen sizes and devices
+ 
+    ![image](https://github.com/user-attachments/assets/c20abba9-3480-4d97-bf15-1b7d2ca921ac)
+
 
 ## 🚀 Technologies Used
 
